@@ -1,7 +1,66 @@
 /* Our CSS file. */
 
 
-.container, .content {
-width: 100%;
-height: 100%;
-}
+.container{
+    width: 100%;
+    height: 100%;
+    }
+    
+    .content{
+        background: #f2f2f2;
+        width:90%;
+        height:300px;
+        margin:20px;
+        border:1px solid black;
+    }
+    .left-inline,.right-inline{
+        display:inline-block;
+        width:40%;
+        margin:38px 18px;
+    
+    }
+    .left-inline{
+        padding:14px 26px;
+        margin-top:2px;
+        text-align:center;
+        border:1px solid black;
+        
+    }
+    .btn{
+        text-align:center;
+        background: black;
+        color:white;
+        padding:6px 17px;
+        margin:6px 79px;
+    }
+    .right-inline{
+        height:calc(100%-20px)
+    }
+    #render-wiki{
+        width:111%;
+        height:200px;
+        border: none;
+    
+    }
+    .top-block,.bottom-block{
+        display:block;
+        width:90%;
+    
+    }
+    .top-block{
+        padding:0px 3px;
+        text-align:center;
+         margin:-1px 28px;
+    }
+    
+    .bottom-block{
+        padding:2px 36px;
+    }
+    #render-dictionary{
+        width:110%;
+        height:122px;
+        margin:-3px -36px;
+        border: none;
+    
+    }
+    
