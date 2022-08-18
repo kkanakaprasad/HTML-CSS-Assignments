@@ -1,7 +1,142 @@
 /* Our CSS file. */
-
-
-.container, .content {
+*{
+    font-family: 'Times New Roman', Times, serif;
+}
+.container {
 width: 100%;
 height: 100%;
+}
+header ul li {
+    list-style-type: none;
+    display: inline;
+    padding: 20px 20px;
+    display: inline-block;
+    
+       
+}
+
+header {
+   height:100px;
+   display: block;
+   color: aliceblue;
+   padding: 10px;
+   background-color: rgb(4, 100, 100);
+}
+.logo {
+    display: inline;
+    
+}
+.menu {
+    display: inline;
+    position: absolute;
+    right: 0;
+    padding: 10px 40px;
+    text-decoration: none;
+    
+}
+nav {
+    height: 500px;
+    
+    background-image: url(./assets/park.jpg);
+    background-repeat:no-repeat ;
+    background-size: cover;
+    align-items: center;
+
+}
+nav img {
+    border-radius: 50%;
+    display: block;
+    margin:auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+h1 {
+    text-align: center;
+    padding: 20px;
+    margin:0;
+}
+nav button {
+    display: block;
+    margin: auto;
+}
+aside {
+    width: 25%;
+    display: inline-block;
+    margin: auto;
+    margin: 10px 4%;
+    vertical-align: top;
+    
+}
+aside img {
+    border-radius: 50%;
+    display: block;
+    margin: auto;
+
+}
+aside h3 {
+    text-align: center;
+    margin: 10px;
+}
+aside button{
+    display: block;
+    margin:auto;
+}
+aside p {
+    padding: 20px;
+    height: 150px;
+}
+footer {
+    height: 200px;
+    margin: 10px 0px;
+    background-color: rgb(8, 169, 169);
+    
+}
+footer p {
+    text-align: center;
+    color: whitesmoke;
+    margin-top: 15px;
+    padding: 10px;
+
+}
+footer ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 10px 20px;
+    height: 80px;
+    
+}
+footer ul {
+    display: block;
+    margin: 0 35%;
+}
+footer img {
+    height: 50px;
+    width: 50px;
+
+}
+footer a {
+    text-align: center;
+    margin: 20px 45%;
+    padding: 10px;
+
+}
+a {
+    text-decoration: none;
+    color: whitesmoke;
+}
+a:hover {
+    color: brown;
+    cursor: pointer;
+}
+button:hover {
+    background-color: aqua;
+}
+button {
+    border-color: rgb(8, 169, 169);
+    background-color: white;
+    color: rgb(8, 169, 169);
+    cursor: pointer;
+}
+img {
+    border-color: rgb(8, 169, 169);
 }
